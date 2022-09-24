@@ -40,14 +40,16 @@ function DisplayTasks(){
     // task input
     const input_element = document.createElement("input");
     input_element.type = "text";
-    input_element.classList.add("col-10");
+    input_element.classList.add("col-9");
+    input_element.classList.add("col-sm-10");
     input_element.value = todo.content;
     input_element.setAttribute("readonly", "readonly");
 
 
     // Button div
     const button_div = document.createElement("div");
-    button_div.classList.add("col-2");
+    button_div.classList.add("col-3");
+    button_div.classList.add("col-sm-2");
     button_div.classList.add("text-center");
 
 
